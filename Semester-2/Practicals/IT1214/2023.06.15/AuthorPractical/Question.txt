@@ -1,0 +1,36 @@
+Create a class Author
+	private attributes: String name, String email, char gender
+	method: void printDetails() which prints name, email and gender
+	Create a class Book
+	private attributes: String name, double price, int quantity, String author
+	method: String toString() which prints bookName, price, authorName, authorEmail, authorGender
+	
+	Q: Create an App which find whether a requested book is available for purchase by getting name of the book and quantity from the user.
+		-The app prints "Out of stock" message if particular book stock is 0
+		-If the required number of book is less than in stock, then the app prints the message "Request are not available!" and the detail of the book.
+		-If the required  number of book stock is available,
+			the app prints the message "Available!" and the details of the book.
+
+	Sample details are given below
+	
+	Following are the details of the author;
+			Kathy Sierra			kathysierra@gmail.com			M
+			Walter Savitch			waltersavitch@gmail.com			M
+			Herbert Schildt			herbertschildt@gmail.com		M
+			Cay S. Hortsmann		cayhortsmann@gmail.com			F
+			Craig Walls			craigwalls@yahoo.com			M
+			M. G. Martin			mgmartin@gmail.com			M
+			Y. Daniel Liang			danielliang@live.com			M
+			Nathan Clark			nathanclark@gmail.com			F
+			
+	Following are the details of book;
+			Head first Java					Kathy Sierra		5360.00			5
+			Java: Introduction to problem solving		Walter Savitch		4300.00			8
+			Java: Beginner's guide				Herbert Schildt		3874.00			8
+			Core Java					Cay S. Hortsmann	3874.00			5
+			Core Java SE9					Cay S. Hortsmann	5170.00			10
+			OCA/OCP Java SE7				Kathy Sierra		4330.00			0
+			Spring in action				Craig Walls		5440.00			6
+			Java: Basics for beginners			M. G. Martin		980.00			4
+			Intro to Java programming			Y. Daniel Liang		2500.00			3
+			Java: Programming basics			Nathan Clark		500.00			7

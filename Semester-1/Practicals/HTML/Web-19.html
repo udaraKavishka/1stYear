@@ -1,0 +1,88 @@
+<!--
+	Date : 16.11.2022
+	Practical number : 19
+	Problem specification : HTML layouts using HTML5 semantic tags
+-->
+
+<html>
+	<head>
+		<title>Tables</title>
+		<style>
+			h1{
+				background-color:lightblue;
+				clear:both;
+			}
+			table{
+				border-collapse:collapse;
+			}
+			tr:nth-child(odd){
+				background-color:lightgray;
+			}
+			#A1{
+				font-weight:bold;
+				text-align:center;
+			}
+			#A2{
+				font-weight:bold;
+			}
+			#A3, #A4, #A5, #A6, #A7, #A9, #A10{
+				color:blue;
+			}
+			img{
+				float:right;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Courses</h1>
+		<p>Here are some courses i've taken:</p>
+		
+		<img src="C:\Users\user\Desktop\A.Prac\splash.png" height="212px" 
+		width="206px" alt="Sample Image">
+		
+		<table border="1px">
+			<tr id="A1">
+				<td>Course Number</td>
+				<td>Course Title</td>
+				<td>Semesters taken</td>
+			</tr>
+			<tr id="A2">
+				<td colspan="3" align="center">For Credit</td>
+			</tr>
+			<tr>
+				<td id="A3">6.813</td>
+				<td id="A4">User Interface Design</td>
+				<td id="A5">Spring 2014</td>
+			</tr>
+			<tr>
+				<td id="A6">6.034</td>
+				<td>Artificial Intelligence</td>
+				<td>Fall 2013</td>
+			</tr>
+			<tr>
+				<td id="A7">6.006</td>
+				<td>Introduction to Algorithms</td>
+				<td>Fall 2013</td>
+			</tr>
+			<tr id="A8">
+				<td colspan="3" align="center">Listener</td>
+			</tr>
+			<tr>
+				<td id="A9">6.867</td>
+				<td>Machione Learning</td>
+				<td>Fall 2013</td>
+			</tr>
+			<tr>
+				<td id="A10">6.830</td>
+				<td>Database Systems</td>
+				<td>Fall 2012</td>
+			</tr>
+		</table>
+		
+		<h1>Interests</h1>
+		<p>
+			I am interested <b>HCL</b>, memes and youtube videoes.
+		</p>
+	</body>
+</html>

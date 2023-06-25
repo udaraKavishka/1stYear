@@ -1,0 +1,56 @@
+<!--
+	Date : 09.11.2022
+	Practical number : 15
+	Problem specification : Table with colspan & rowspan
+-->
+
+<html>
+	<head>
+		<title>Schedule</title>
+		<style>
+			table{
+				background-color:yellow;
+				text-align:center;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Air Bus Schedule</h1>
+		<table border="1px">
+			<tr>
+				<td rowspan="2">Air Bus No</td>
+				<td rowspan="2">Country</td>
+				<td colspan="2">Time</td>
+			</tr>
+			<tr>
+				<td>Arrival</td>
+				<td>Depature</td>
+			</tr>
+			<tr>
+				<td rowspan="2">A761</td>
+				<td rowspan="2">SriLanka - UK</td>
+				<td>8.00</td>
+				<td>13.00</td>
+			</tr>
+			<tr>
+				<td>13.00</td>
+				<td>19.00</td>
+			</tr>
+			<tr>
+				<td rowspan="3">A781</td>
+				<td rowspan="3">India - SriLanka</td>
+				<td>8.00</td>
+				<td>13.00</td>
+			</tr>
+			<tr>
+				<td>10.00</td>
+				<td>13.00</td>
+			</tr>
+			<tr>
+				<td>18.00</td>
+				<td>21.00</td>
+			</tr>
+		</table>
+	</body>
+<html>		

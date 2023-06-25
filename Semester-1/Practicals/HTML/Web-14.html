@@ -1,0 +1,74 @@
+<!--
+	Date : 04.11.2022
+	Practical number : 14
+	Problem specification : Tables
+-->
+
+<html>
+	<head>
+		<title>Spanning Columns</title>
+		<style>
+			h1{
+				color:blue;
+			}
+			table, tr, th, td{
+				border:1px solid black;
+				padding:10px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>Spanning Columns</h1>
+		<table>
+			<tr>
+				<td colspan="2">Row1 - Col1 & col2</td>
+			</tr>
+			<tr>
+				<td>Row2 - Col1</td>
+				<td>Row2 - Col2</td>
+			</tr>
+		</table>
+		
+		<br>
+		
+		<table>
+			<tr>
+				<td>Row1 - Col1</td>
+				<td rowspan="2">Row1 & Row2 - col2</td>
+			</tr>
+			<tr>
+				<td>Row2 - Col1</td>
+			</tr>
+		</table>
+		
+		<br>
+		
+		<table>
+			<tr>
+				<td>Row1 - Col1</td>
+				<td>Row1 - Col2</td>
+				<td>Row1 - Col3</td>
+				<td rowspan="4">Row1,2,3,4 - col4</td>
+			</tr>
+			<tr>
+				<td>Row2 - Col1</td>
+				<td rowspan="3" colspan="2">Row2,3&4 - Col2&3</td>
+			</tr>
+			<tr>
+				<td>Row3 - Col1</td>
+			</tr>
+			<tr>
+				<td>Row4 - Col1</td>
+			</tr>
+			<tr>
+				<td colspan="2">Row5 - Col1&2</td>
+				<td colspan="2">Row5 - Col3&4</td>
+			</tr>
+			<tr>
+				<td colspan="4">Row6 - Col1,2,3&4</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
